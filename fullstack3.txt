@@ -1,0 +1,9 @@
+ull
+2022-11-15 11:02:50,949 DEBUG [java.sql.ResultSet] {rset-19017563} ResultSet
+2022-11-15 11:02:50,950 DEBUG [java.sql.ResultSet] {rset-19017563} Header: [PRDT_NUM, PRDT_NM, CONF_DTTM, CORP_ID, CORP_NM, NML_AMT, SALE_AMT, DIS_PER, RSV_TM, SALE_TM, SAVE_PATH, SAVE_FILE_NM, ABLE_YN, BUY_NUM, CORP_ABLE_YN, GPA_AVG, GPA_CNT, USE_FUEL_DIV, USE_FUEL_DIV_NM, MAKER_DIV, EVENT_CNT, COUPON_CNT, PRDT_LINK_YN, ISR_DIV, ISR_TYPE_DIV, MAXI_NUM, CAR_DIV, RC_CARDIV_NUM, LINK_MAPPING_NUM, CORP_LINK_YN, RSV_MAXI_TM_APL_YN, RSV_MAXI_TM, MODEL_YEAR, RNT_QLFCT_AGE, RNT_QLFCT_CAREER, CORP_RAND_LEVEL, LINK_MAPPING_ISR_NUM, CORP_LINK_ISR_YN, ICON_CDS, TAMNACARD_YN, API_RENT_DIV, SELL_LINK, GENERAL_ISR_REWARD_AMT, GENERAL_ISR_BURCHA, LUXY_ISR_REWARD_AMT, LUXY_ISR_BURCHA]
+2022-11-15 11:02:50,950 DEBUG [java.sql.ResultSet] {rset-19017563} Result: [RC00004446, 스타리아(9인승) / 경유, 2022-02-03 09:08:00, C160000360, 제주공항렌트카, 250000, 247500, 1, 24, 24, null, /data/cardiv/RD01R40044.png, N, 27, Y, 0, 0, CF02, 경유, MD01, 0, 0, null, ID10, LUXY, 9, CAR4, RD01R40044, 145, Y, Y, 144, 2021~2022, 26, 2, 7.38, 5046, null, RA24,RA23,RA22,RA20,RA15,RA14,RA11,RA10,RA08,RA04,RA03,RA02,RA01, N, G, Y, null, null, 400만원, ※ 발생시 차량한도까지 고객님 부담금 없음]
+2022-11-15 11:02:50,950  INFO [api.service.impl.APIServiceImpl] RC ABLE CHECK RARAM : tamnao_loginid=xkaskdhrmfladusruf2018&tamnao_loginpw=qlqjs2018&st=202211160900&et=202211170900&tamnao_cid=C160000360&rentcar_mid=145
+2022-11-15 11:02:51,267  INFO [api.service.impl.APIServiceImpl] possiblenum = 예약가능
+2022-11-15 11:02:51,267 ERROR [web.product.service.impl.WebRcProductServiceImpl] For input string: "예약가능"
+2022-11-15 11:02:51,268  INFO [egovframework.cmmn.EgovSampleExcepHndlr]  EgovServiceExceptionHandler run...............
+2022-11-15 11:02:51,268 ERROR [egovframework.cmmn.EgovSampleExcepHndlr] web.product.service.impl.WebRcProductServiceImpl.selectRcAble
